@@ -84,7 +84,7 @@ ingress:
   hosts:
     - host: <your_domain>
       paths:
-        - path: "/api/.*|git/.*|tensorflow/.*|auto_annotation/.*|analytics/.*|static/.*|admin|admin/.*|documentation/.*|dextr/.*|reid/.*"
+        - path: "/api/.*|git/.*|tensorflow/.*|auto_annotation/.*|analytics/.*|static/.*|admin|admin/.*|documentation/.*|dextr/.*|reid/.*|/opencv/.*"
           service:
             name: <release_name>-backend-service
             port: 8080
