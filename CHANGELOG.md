@@ -49,6 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Annotation window might have top offset if try to move a locked object
 - Image search in cloud storage (<https://github.com/cvat-ai/cvat/pull/8>)
 - Reset password functionality (<https://github.com/cvat-ai/cvat/pull/52>)
+- Cannot load opencv in the annotation`tasks/{taskID}jobs/{jobID}` page
 
 ### Security
 - TDB
