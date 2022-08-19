@@ -195,34 +195,6 @@ redis:
 
 nuclio:
   enabled: false
-# Example for nginx ingress and cert manager
-#    annotations:
-#        kubernetes.io/ingress.class: nginx
-#        kubernetes.io/tls-acme: "true"
-#        ingress.kubernetes.io/ssl-redirect: "true"
-#        nginx.ingress.kubernetes.io/use-regex: "true"
-#        nginx.ingress.kubernetes.io/secure-backends: "true"
-#        nginx.ingress.kubernetes.io/proxy-body-size: "0"
-#        nginx.ingress.kubernetes.io/proxy-send-timeout: "120"
-#        nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
-#        cert-manager.io/cluster-issuer: <issuer_name>
-#    hosts:
-#        - host: <your domain>
-#          paths:
-#              - path: "/api/.*|git/.*|tensorflow/.*|auto_annotation/.*|analytics/.*|static/.*|admin|admin/.*|documentation/.*|dextr/.*|reid/.*|/opencv/.*"
-#                service:
-#                    name: <release_name>-backend-service
-#                    port: 8080
-#              - path : "/"
-#                pathType: "Prefix"
-#                service:
-#                    name: <release_name>-frontend-service
-#                    port: 80
-#
-#    tls:
-#        - hosts:
-#              - <your domain>
-#          secretName: ingress-tls-cvat
 # See https://github.com/nuclio/nuclio/blob/master/hack/k8s/helm/nuclio/values.yaml for more info
 #  registry:
 #    loginUrl: someurl
