@@ -52,6 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reset password functionality (<https://github.com/cvat-ai/cvat/pull/52>)
 - Creating task with cloud storage data (<https://github.com/cvat-ai/cvat/pull/116>)
 - Cannot load opencv in the annotation`tasks/{taskID}jobs/{jobID}` page
+- Show empty tasks (<https://github.com/cvat-ai/cvat/pull/100>)
 
 ### Security
 - TDB
